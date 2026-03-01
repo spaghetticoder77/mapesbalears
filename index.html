@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font (opcional però recomanat) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Story: Mapes a les Illes Balears</title>
+
+  <style>
+
+    body{
+      font-family:'Poppins', sans-serif;
+      background: linear-gradient(180deg,#f4f7fb,#ffffff);
+      color:#2c3e50;
+    }
+
+    /* HERO HEADER */
+    header{
+      background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+                  url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+      background-size:cover;
+      background-position:center;
+      color:white;
+      padding:80px 20px;
+      border-radius:12px;
+      margin-top:20px;
+      margin-bottom:30px;
+      text-align:center;
+      box-shadow:0 10px 25px rgba(0,0,0,.15);
+    }
+
+    header h1{
+      font-weight:600;
+      letter-spacing:1px;
+    }
+
+    /* NAV PILLS */
+    .nav-pills .nav-link{
+      border-radius:30px;
+      padding:10px 20px;
+      font-weight:500;
+      transition:all .3s ease;
+    }
+
+    .nav-pills .nav-link.active{
+      background:#0d6efd;
+      box-shadow:0 4px 12px rgba(13,110,253,.4);
+    }
+
+    .nav-pills .nav-link:hover{
+      transform:translateY(-2px);
+    }
+
+    /* CONTENT CARD */
+    .content-card{
+      background:white;
+      padding:25px;
+      border-radius:14px;
+      box-shadow:0 8px 20px rgba(0,0,0,.08);
+      margin-bottom:40px;
+    }
+
+    h2{
+      font-weight:600;
+      margin-bottom:10px;
+    }
+
+    p{
+      color:#6c757d;
+      margin-bottom:20px;
+    }
+
+    /* MAP FRAME */
+    .map-frame{
+      width:100%;
+      height:75vh;
+      border:none;
+      border-radius:12px;
+      box-shadow:0 6px 18px rgba(0,0,0,.15);
+    }
+
+    .map-wrapper{
+  position:relative;
+}
+
+.fullscreen-btn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  z-index:10;
+  border-radius:30px;
+  padding:6px 14px;
+  font-size:14px;
+  box-shadow:0 4px 10px rgba(0,0,0,.25);
+}
+
+.modal iframe{
+  width:100%;
+  height:90vh;
+  border:none;
+  border-radius:8px;
+}
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HERO -->
+  <header>
+    <h1>🌍 Story: Mapes a les Illes Balears</h1>
+    <p class="lead">Exploració interactiva del territori, patrimoni i paisatge marítim</p>
+  </header>
+
+  <!-- NAV -->
+  <ul class="nav nav-pills justify-content-center mb-4" role="tablist">
+    <li class="nav-item">
+      <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#parcs">
+        🌿 Parcs Naturals
+      </button>
+    </li>
+
+    <li class="nav-item">
+      <button class="nav-link" data-bs-toggle="pill" data-bs-target="#torres">
+        🏰 Torres de Defensa
+      </button>
+    </li>
+
+    <li class="nav-item">
+      <button class="nav-link" data-bs-toggle="pill" data-bs-target="#ports">
+        ⚓ Ports i Rutes Marítimes
+      </button>
+    </li>
+  </ul>
+
+  <!-- TAB CONTENT -->
+  <div class="tab-content">
+
+    <!-- PARCS -->
+    <div class="tab-pane fade show active" id="parcs">
+      <div class="content-card">
+        <h2>Parcs Naturals</h2>
+        <p>
+          Descobreix els principals espais naturals protegits de les Illes Balears,
+          incloent paisatges emblemàtics, biodiversitat i patrimoni ambiental.
+        </p>
+
+        <div class="map-wrapper">
+
+          <button class="btn btn-light fullscreen-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#mapModal"
+                  onclick="openFullscreen(this)">
+              ⛶ Fullscreen
+          </button>
+          <iframe class="map-frame" allowfullscreen="true" 
+                src="//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- TORRES -->
+    <div class="tab-pane fade" id="torres">
+      <div class="content-card">
+        <h2>Torres de Defensa</h2>
+        <p>
+          Xarxa històrica de vigilància costanera utilitzada per protegir les illes
+          dels atacs pirates i controlar les rutes marítimes.
+        </p>
+
+        <div class="map-wrapper">
+          <button class="btn btn-light fullscreen-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#mapModal"
+                  onclick="openFullscreen(this)">
+              ⛶ Fullscreen
+          </button>
+          <iframe class="map-frame"
+                src="//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTS -->
+    <div class="tab-pane fade" id="ports">
+      <div class="content-card">
+        <h2>Ports i Rutes Marítimes</h2>
+        <p>
+          Connexions històriques i comercials que han configurat la mobilitat
+          mediterrània entre les illes i el continent.
+        </p>
+
+        <div class="map-wrapper">
+          <button class="btn btn-light fullscreen-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#mapModal"
+                  onclick="openFullscreen(this)">
+              ⛶ Fullscreen
+          </button>
+                <iframe class="map-frame"
+                src="//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true">
+                </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FULLSCREEN MAP MODAL -->
+<div class="modal fade" id="mapModal" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content bg-dark">
+
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white">Mapa interactiu</h5>
+        <button type="button" class="btn-close btn-close-white"
+                data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body p-2">
+        <iframe id="fullscreenMap"></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Open fullscreen iframe map-->
+<script>
+function openFullscreen(button){
+
+  // trobar iframe del mateix contenidor
+  const iframe = button.parentElement.querySelector("iframe");
+
+  // copiar la URL al modal
+  const fullscreenIframe = document.getElementById("fullscreenMap");
+  fullscreenIframe.src = iframe.src;
+}
+
+// netejar iframe quan es tanca (millora rendiment)
+document.getElementById('mapModal')
+  .addEventListener('hidden.bs.modal', function () {
+    document.getElementById("fullscreenMap").src = "";
+});
+</script>
+</body>
+</html>
