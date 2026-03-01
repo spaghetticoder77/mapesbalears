@@ -104,9 +104,9 @@ Els mapes utilitzen:
 
 ## 👤 Autor
 
-Projecte desenvolupat per: **[El teu nom]**
+Projecte desenvolupat per: **[Toni Mitjanit]**
 
-GitHub: https://github.com/[el-teu-usuari]
+GitHub: https://github.com/[spaghetticoder77]
 
 ---
 
