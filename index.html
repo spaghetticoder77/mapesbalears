@@ -181,13 +181,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         <div class="map-wrapper">
 
           <button class="btn btn-light fullscreen-btn"
+                  data-map-index="0"
                   data-bs-toggle="modal"
                   data-bs-target="#mapModal"
                   onclick="openFullscreen(this)">
               <i class="fa-solid fa-expand me-2"></i>Fullscreen
           </button>
           <iframe class="map-frame" allowfullscreen="true" 
-                src="//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true">
+                src="//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#9/39.401183/2.716370">
           </iframe>
         </div>
       </div>
@@ -204,14 +205,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
         <div class="map-wrapper">
           <button class="btn btn-light fullscreen-btn"
+                  data-map-index="1"
                   data-bs-toggle="modal"
                   data-bs-target="#mapModal"
                   onclick="openFullscreen(this)">
               ⛶ Fullscreen
           </button>
-          <iframe class="map-frame"
-                src="//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true">
-          </iframe>
+          <iframe class="map-frame"  allowfullscreen="true" 
+                src="//umap.openstreetmap.fr/es/map/talaies_1364191?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#10/39.649583/2.916870"></iframe>
         </div>
       </div>
     </div>
@@ -227,14 +228,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
         <div class="map-wrapper">
           <button class="btn btn-light fullscreen-btn"
+                  data-map-index="2"
                   data-bs-toggle="modal"
                   data-bs-target="#mapModal"
                   onclick="openFullscreen(this)">
               ⛶ Fullscreen
           </button>
-                <iframe class="map-frame"
-                src=  "//umap.openstreetmap.fr/es/map/ports-rutes-maritimes-illes-balears_1365944">
-                </iframe>
+                <iframe class="map-frame"  allowfullscreen="true" 
+                src="//umap.openstreetmap.fr/es/map/ports-i-rutes-illes-balears_1367655?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#8/39.970806/1.812744"></iframe>
         </div>
       </div>
     </div>
@@ -280,9 +281,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 <script>
 
   const mapUrls = [
-  "//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true&miniMap=true",
-  "umap.openstreetmap.fr/es/map/talaies_1364191?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true",
-  "//umap.openstreetmap.fr/es/map/ports-i-rutes-illes-balears_1367655?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"
+  "//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#9/39.401183/2.716370",
+  "//umap.openstreetmap.fr/es/map/talaies_1364191?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#10/39.649583/2.916870",
+  "//umap.openstreetmap.fr/es/map/ports-i-rutes-illes-balears_1367655?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#8/39.970806/1.812744"
 ];
 
 const mapTitles = [
@@ -294,12 +295,7 @@ const mapTitles = [
 let currentMapIndex = 0;
 
 function openFullscreen(button){
-  const iframe = button.parentElement.querySelector("iframe");
-  const url = iframe.src;
-
-  currentMapIndex = mapUrls.indexOf(url);
-  if(currentMapIndex === -1) currentMapIndex = 0;
-
+  currentMapIndex = parseInt(button.dataset.mapIndex);
   updateModalMap();
 }
 
