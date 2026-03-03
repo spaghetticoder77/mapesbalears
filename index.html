@@ -6,7 +6,11 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Google Font (opcional però recomanat) -->
+  <!-- Font-awesome (icones) -->
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Google Font (fonts) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <title>Story: Mapes a les Illes Balears</title>
@@ -21,8 +25,13 @@
 
     /* HERO HEADER */
     header{
-      background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-                  url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+      background: linear-gradient(
+            180deg,
+          #f08c2e 0%,      /* taronja retro */
+          #f4a261 25%,     /* transició càlida */
+          #4ea8de 75%,     /* blau retro suau */
+          #1d3557 100%     /* blau profund */
+      );
       background-size:cover;
       background-position:center;
       color:white;
@@ -34,10 +43,16 @@
       box-shadow:0 10px 25px rgba(0,0,0,.15);
     }
 
+    header .lead{
+      opacity: 0.9;
+    }
+
     header h1{
       font-weight:600;
       letter-spacing:1px;
+      text-shadow: 0 4px 12px rgba(0,0,0,.6);
     }
+
 
     /* NAV PILLS */
     .nav-pills .nav-link{
@@ -106,6 +121,14 @@
   border-radius:8px;
 }
 
+.nav-link i{
+  transition:transform .25s ease;
+}
+
+.nav-link:hover i{
+  transform:scale(1.15);
+}
+
   </style>
 </head>
 
@@ -115,7 +138,10 @@
 
   <!-- HERO -->
   <header>
-    <h1>🌍 Story: Mapes a les Illes Balears</h1>
+    <h1>
+      <i class="fa-solid fa-earth-europe me-2"></i>
+      Story: Mapes a les Illes Balears
+    </h1>
     <p class="lead">Exploració interactiva del territori, patrimoni i paisatge marítim</p>
   </header>
 
@@ -123,19 +149,19 @@
   <ul class="nav nav-pills justify-content-center mb-4" role="tablist">
     <li class="nav-item">
       <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#parcs">
-        🌿 Parcs Naturals
+        <i class="fa-solid fa-leaf me-2"></i>Parcs Naturals
       </button>
     </li>
 
     <li class="nav-item">
       <button class="nav-link" data-bs-toggle="pill" data-bs-target="#torres">
-        🏰 Torres de Defensa
+        <i class="fa-solid fa-tower-observation me-2"></i>Torres de Defensa
       </button>
     </li>
 
     <li class="nav-item">
       <button class="nav-link" data-bs-toggle="pill" data-bs-target="#ports">
-        ⚓ Ports i Rutes Marítimes
+        <i class="fa-solid fa-anchor me-2"></i>Ports i Rutes Marítimes
       </button>
     </li>
   </ul>
@@ -158,7 +184,7 @@
                   data-bs-toggle="modal"
                   data-bs-target="#mapModal"
                   onclick="openFullscreen(this)">
-              ⛶ Fullscreen
+              <i class="fa-solid fa-expand me-2"></i>Fullscreen
           </button>
           <iframe class="map-frame" allowfullscreen="true" 
                 src="//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true">
@@ -207,7 +233,7 @@
               ⛶ Fullscreen
           </button>
                 <iframe class="map-frame"
-                src="//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true">
+                src=  "//umap.openstreetmap.fr/es/map/ports-rutes-maritimes-illes-balears_1365944">
                 </iframe>
         </div>
       </div>
@@ -215,22 +241,35 @@
   </div>
 
   <!-- FULLSCREEN MAP MODAL -->
+<!-- FULLSCREEN MAP MODAL AMB NAV -->
 <div class="modal fade" id="mapModal" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content bg-dark">
 
       <div class="modal-header border-0">
         <h5 class="modal-title text-white">Mapa interactiu</h5>
-        <button type="button" class="btn-close btn-close-white"
-                data-bs-dismiss="modal"></button>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
       </div>
 
-      <div class="modal-body p-2">
+      <div class="modal-body p-2 position-relative">
+
+        <!-- iframe del mapa -->
         <iframe id="fullscreenMap"></iframe>
+
+        <!-- BOTONS PREVIOUS / NEXT -->
+        <button class="btn btn-light position-absolute top-50 start-0 translate-middle-y ms-2" onclick="prevMap()">
+          <i class="fa-solid fa-chevron-left"></i> Previous
+        </button>
+        <button class="btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" onclick="nextMap()">
+          Next <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
       </div>
 
     </div>
   </div>
+</div>
+
 </div>
 </div>
 
@@ -239,14 +278,49 @@
 
 <!-- Open fullscreen iframe map-->
 <script>
+
+  const mapUrls = [
+  "//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=true&miniMap=true",
+  "umap.openstreetmap.fr/es/map/talaies_1364191?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true",
+  "//umap.openstreetmap.fr/es/map/ports-i-rutes-illes-balears_1367655?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"
+];
+
+const mapTitles = [
+  "Parcs Naturals",
+  "Torres de Defensa",
+  "Ports i Rutes Marítimes"
+];
+
+let currentMapIndex = 0;
+
 function openFullscreen(button){
-
-  // trobar iframe del mateix contenidor
   const iframe = button.parentElement.querySelector("iframe");
+  const url = iframe.src;
 
-  // copiar la URL al modal
-  const fullscreenIframe = document.getElementById("fullscreenMap");
-  fullscreenIframe.src = iframe.src;
+  currentMapIndex = mapUrls.indexOf(url);
+  if(currentMapIndex === -1) currentMapIndex = 0;
+
+  updateModalMap();
+}
+
+function updateModalMap(){
+  const iframe = document.getElementById("fullscreenMap");
+  iframe.src = mapUrls[currentMapIndex];
+
+  const titleElement = document.querySelector("#mapModal .modal-title");
+  titleElement.textContent = mapTitles[currentMapIndex];
+}
+
+function prevMap(){
+  currentMapIndex--;
+  if(currentMapIndex < 0) currentMapIndex = mapUrls.length - 1;
+  updateModalMap();
+}
+
+function nextMap(){
+  currentMapIndex++;
+  if(currentMapIndex >= mapUrls.length) currentMapIndex = 0;
+  updateModalMap();
 }
 
 // netejar iframe quan es tanca (millora rendiment)
