@@ -135,7 +135,7 @@ Aquest projecte es distribueix sota llicència MIT.
 
 ## 👤 Autor
 
-Desenvolupat per: **[Toni Mitjanit]**
-GitHub: https://github.com/[spaghetticoder77]
+Desenvolupat per: **Toni Mitjanit**
+GitHub: https://github.com/spaghetticoder77
 
 ---
