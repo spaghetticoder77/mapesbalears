@@ -1,33 +1,56 @@
 # 🌍 Story Map — Mapes a les Illes Balears
 
-Projecte web interactiu basat en **mapes narratius (Story Maps)** que explora el territori, el patrimoni i les rutes marítimes de les Illes Balears mitjançant visualització cartogràfica interactiva.
+Projecte web interactiu basat en el concepte de **Story Map** per explorar el territori, el patrimoni històric i les rutes marítimes de les Illes Balears mitjançant cartografia interactiva.
 
-La web combina **HTML5**, **CSS**, **Bootstrap 5** i mapes incrustats de **uMap / OpenStreetMap** per crear una experiència de navegació visual i educativa.
+La web combina **HTML5, CSS3, Bootstrap 5, Font Awesome i uMap (OpenStreetMap)** per crear una experiència visual narrativa moderna i responsive.
 
 ---
 
-## 📖 Descripció del projecte
+## 🎯 Objectiu del projecte
 
-Aquest projecte presenta una narrativa geogràfica dividida en tres capítols principals:
+Aquest projecte té com a finalitat:
 
-* 🌿 **Parcs Naturals** — espais protegits i paisatges naturals destacats.
-* 🏰 **Torres de Defensa** — arquitectura històrica de vigilància costanera.
-* ⚓ **Ports i Rutes Marítimes** — connexions marítimes i mobilitat mediterrània.
+* Desenvolupar una narrativa digital basada en mapes interactius
+* Integrar cartografia oberta dins una interfície web moderna
+* Explorar el concepte de *geographical storytelling*
+* Experimentar amb UX/UI aplicada a visualització territorial
 
-Cada secció integra un mapa interactiu que permet explorar el territori directament des del navegador.
+---
 
-L’objectiu és experimentar amb el concepte de **digital storytelling geogràfic**, combinant cartografia interactiva i disseny web contemporani.
+## 🗺️ Contingut
+
+La web està dividida en tres seccions principals:
+
+### 🌿 Parcs Naturals
+
+Exploració dels espais naturals protegits de les Illes Balears.
+
+### 🏰 Torres de Defensa
+
+Sistema històric de vigilància costanera per protegir el territori.
+
+### ⚓ Ports i Rutes Marítimes
+
+Connexions comercials i històriques que han estructurat la mobilitat mediterrània.
+
+Cada secció inclou:
+
+* Text introductori
+* Mapa interactiu incrustat (uMap)
+* Mode **fullscreen**
+* Navegació interna entre mapes (Previous / Next)
 
 ---
 
 ## ✨ Característiques principals
 
-* ✅ Navegació per pestanyes amb Bootstrap 5
-* ✅ Mapes interactius d’OpenStreetMap (uMap)
-* ✅ Mode **fullscreen** per als mapes
-* ✅ Disseny responsive (ordinador, tablet i mòbil)
-* ✅ Interfície visual tipus *story map*
-* ✅ Arquitectura web lleugera (sense frameworks complexos)
+* ✅ Disseny responsive amb Bootstrap 5
+* ✅ Hero header amb degradat retro (taronja → blau)
+* ✅ Navegació per pestanyes amb icones sòlides (Font Awesome)
+* ✅ Mapes incrustats des d’OpenStreetMap (uMap)
+* ✅ Modal fullscreen amb navegació interna
+* ✅ Actualització dinàmica del títol del mapa
+* ✅ Experiència tipus StoryMap interactiu
 
 ---
 
@@ -36,7 +59,9 @@ L’objectiu és experimentar amb el concepte de **digital storytelling geogràf
 * HTML5
 * CSS3
 * Bootstrap 5
-* JavaScript (vanilla)
+* JavaScript (Vanilla JS)
+* Font Awesome 6
+* Google Fonts (Poppins)
 * OpenStreetMap
 * uMap
 
@@ -44,75 +69,73 @@ L’objectiu és experimentar amb el concepte de **digital storytelling geogràf
 
 ## 📂 Estructura del projecte
 
-```
+```bash
 project/
 │
-├── index.html        # Pàgina principal
-├── README.md         # Documentació del projecte
-└── assets/           # (opcional) imatges o recursos visuals
+├── index.html      # Fitxer principal de la web
+└── README.md       # Documentació del projecte
 ```
 
 ---
 
 ## 🚀 Com executar el projecte
 
-No requereix instal·lació.
+No requereix instal·lació ni servidor.
 
 1. Clona el repositori:
 
 ```bash
-git clone https://github.com/USUARI/REPOSITORI.git
+git clone https://github.com/el-teu-usuari/el-teu-repositori.git
 ```
 
 2. Obre el fitxer:
 
-```
+```bash
 index.html
 ```
 
 en qualsevol navegador modern.
 
----
-
-## 🗺️ Fonts cartogràfiques
-
-Els mapes utilitzen:
-
-* OpenStreetMap contributors
-* Plataforma uMap (https://umap.openstreetmap.fr)
+També es pot desplegar fàcilment amb **GitHub Pages**.
 
 ---
 
-## 🎯 Objectius del projecte
+## 🖥️ Funcionalitats destacades
 
-* Explorar noves formes de narrativa digital basada en mapes
-* Integrar cartografia oberta dins del disseny web
-* Desenvolupar una experiència interactiva accessible
-* Experimentar amb formats de **storytelling geoespacial**
+### 🔍 Fullscreen interactiu
+
+Cada mapa es pot obrir en un modal a pantalla completa.
+
+### 🔄 Navegació interna
+
+Els botons **Previous / Next** permeten navegar entre els mapes sense sortir del modal.
+
+### 🏷️ Títol dinàmic
+
+El títol del modal s’actualitza automàticament segons el mapa visualitzat.
 
 ---
 
 ## 🔮 Possibles millores futures
 
-* Animacions narratives sincronitzades amb el mapa
-* Sistema de capítols amb scroll (scrollytelling)
-* Integració amb dades GeoJSON dinàmiques
-* Mode immersiu tipus StoryMapJS
-* Millores d’accessibilitat i multilingüe
-
----
-
-## 👤 Autor
-
-Projecte desenvolupat per: **[Toni Mitjanit]**
-
-GitHub: https://github.com/[spaghetticoder77]
+* Animacions tipus *scrollytelling*
+* Integració amb GeoJSON dinàmic
+* Mode multilingüe
+* Millores d’accessibilitat (ARIA)
+* Integració amb Mapbox o Leaflet personalitzat
+* Sincronització narrativa text ↔ mapa
 
 ---
 
 ## 📄 Llicència
 
 Aquest projecte es distribueix sota llicència MIT.
-Consulta el fitxer `LICENSE` per a més informació.
+
+---
+
+## 👤 Autor
+
+Desenvolupat per: **[Toni Mitjanit]**
+GitHub: https://github.com/[spaghetticoder77]
 
 ---
