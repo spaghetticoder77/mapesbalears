@@ -164,6 +164,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         <i class="fa-solid fa-anchor me-2"></i>Ports i Rutes Marítimes
       </button>
     </li>
+
+    <li class="nav-item">
+      <button class="nav-link" data-bs-toggle="pill" data-bs-target="#depuradores">
+        <i class="fa-solid fa-filter me-2"></i>Depuradores
+      </button>
+    </li>
+
+    <li class="nav-item">
+      <button class="nav-link" data-bs-toggle="pill" data-bs-target="#desaladores">
+        <i class="fa-solid fa-gears me-2"></i>Dessaladores
+      </button>
+    </li>
   </ul>
 
   <!-- TAB CONTENT -->
@@ -239,8 +251,55 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         </div>
       </div>
     </div>
+
+
+    <!-- DEPURADORES -->
+    <div class="tab-pane fade" id="depuradores">
+      <div class="content-card">
+        <h2>Estacions Depuradores d’Aigües Residuals</h2>
+        <p>
+          Infraestructures essencials per al cicle integral de l’aigua, permetent el tractament i la regeneració de les aigües abans del seu retorn al medi natural.
+        </p>
+
+        <div class="map-wrapper">
+          <button class="btn btn-light fullscreen-btn"
+                  data-map-index="3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#mapModal"
+                  onclick="openFullscreen(this)">
+              ⛶ Fullscreen
+          </button>
+                <iframe class="map-frame"  allowfullscreen="true" 
+                src="//umap.openstreetmap.fr/es/map/depuradores_1369308?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#9/39.442557/2.846832">
+              </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- DESSALADORES -->
+     <div class="tab-pane fade" id="desaladores">
+      <div class="content-card">
+        <h2>Dessaladores</h2>
+        <p>
+          Infraestructures clau per garantir el subministrament d’aigua potable en un territori insular amb recursos hídrics limitats.
+        </p>
+
+        <div class="map-wrapper">
+          <button class="btn btn-light fullscreen-btn"
+                  data-map-index="4"
+                  data-bs-toggle="modal"
+                  data-bs-target="#mapModal"
+                  onclick="openFullscreen(this)">
+              ⛶ Fullscreen
+          </button>
+                <iframe class="map-frame"  allowfullscreen="true" 
+                src="//umap.openstreetmap.fr/es/map/punts-abocament_1369293?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#9/39.434072/2.610626"></iframe>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <!-- FULLSCREEN MAP MODAL -->
 <!-- FULLSCREEN MAP MODAL AMB NAV -->
 <div class="modal fade" id="mapModal" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
@@ -258,10 +317,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
         <!-- BOTONS PREVIOUS / NEXT -->
         <button class="btn btn-light position-absolute top-50 start-0 translate-middle-y ms-2" onclick="prevMap()">
-          <i class="fa-solid fa-chevron-left"></i> Previous
+          <i class="fa-solid fa-chevron-left"></i> Anterior
         </button>
         <button class="btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" onclick="nextMap()">
-          Next <i class="fa-solid fa-chevron-right"></i>
+          Següent <i class="fa-solid fa-chevron-right"></i>
         </button>
 
       </div>
@@ -282,13 +341,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   const mapUrls = [
   "//umap.openstreetmap.fr/es/map/parcs-naturals-illes-balears_1365942?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#9/39.401183/2.716370",
   "//umap.openstreetmap.fr/es/map/talaies_1364191?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#10/39.649583/2.916870",
-  "//umap.openstreetmap.fr/es/map/ports-i-rutes-illes-balears_1367655?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#8/39.970806/1.812744"
+  "//umap.openstreetmap.fr/es/map/ports-i-rutes-illes-balears_1367655?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#8/39.970806/1.812744",
+  "//umap.openstreetmap.fr/es/map/depuradores_1369308?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#9/39.442557/2.846832",
+  "//umap.openstreetmap.fr/es/map/punts-abocament_1369293?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#9/39.434072/2.610626"
 ];
 
 const mapTitles = [
   "Parcs Naturals",
   "Torres de Defensa",
-  "Ports i Rutes Marítimes"
+  "Ports i Rutes Marítimes",
+  "Depuradores d’Aigües Residuals",
+  "Dessaladores"
 ];
 
 let currentMapIndex = 0;
