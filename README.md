@@ -33,6 +33,14 @@ Sistema històric de vigilància costanera per protegir el territori.
 
 Connexions comercials i històriques que han estructurat la mobilitat mediterrània.
 
+### 💧 Depuradores
+
+Estacions depuradores d’aigües residuals essencials per al cicle integral de l’aigua.
+
+### 🔄 Dessaladores
+
+Plantes dessalinitzadores que garanteixen el subministrament d’aigua potable en un territori amb recursos limitats.
+
 Cada secció inclou:
 
 * Text introductori
