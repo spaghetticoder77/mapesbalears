@@ -1,0 +1,181 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.4155854525678193,
+                        39.53685821606436
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "QC_ID": 0,
+                "NOM": "Punt d'abocament IDAM Andratx",
+                "DESTI": "Medi marí",
+                "VOLUM_2019": 1499568,
+                "COORD_X": 449779,
+                "COORD_Y": 4376518.12
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.6897111805697502,
+                        39.55577749434626
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "QC_ID": 1,
+                "NOM": "Punt d'abocament IDAM Palma",
+                "DESTI": "Medi marí",
+                "VOLUM_2019": 5667057,
+                "COORD_X": 473342.98,
+                "COORD_Y": 4378500.73
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.1417793307908513,
+                        39.8352371747045
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "QC_ID": 2,
+                "NOM": "Punt d'abocament IDAM Alcúdia",
+                "DESTI": "Medi marí",
+                "VOLUM_2019": 1020005,
+                "COORD_X": 512131.28,
+                "COORD_Y": 4409480.03
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.833385170330612,
+                        39.977407829461725
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "QC_ID": 3,
+                "NOM": "Punt d'abocament IDAM Ciutadella",
+                "DESTI": "Medi marí",
+                "VOLUM_2019": 403250,
+                "COORD_X": 571161.39,
+                "COORD_Y": 4425582.23
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.2847325837628687,
+                        38.993234152872645
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "QC_ID": 4,
+                "NOM": "Punt d'abocament IDAM Sant Antoni",
+                "DESTI": "Medi marí",
+                "VOLUM_2019": 2453344,
+                "COORD_X": 351453.17,
+                "COORD_Y": 4317425.11
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.4542138705793297,
+                        38.91073494482639
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "QC_ID": 5,
+                "NOM": "Punt d'abocament IDAM Eivissa",
+                "DESTI": "Medi marí",
+                "VOLUM_2019": 2077666,
+                "COORD_X": 365976.18,
+                "COORD_Y": 4308006.54
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.551779792490102,
+                        38.98729294608333
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "QC_ID": 6,
+                "NOM": "Punt d'abocament IDAM Santa Eulària",
+                "DESTI": "Medi marí",
+                "VOLUM_2019": 1485056,
+                "COORD_X": 374570.83,
+                "COORD_Y": 4316363.9
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.4621031743014532,
+                        38.684607194412955
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "QC_ID": 7,
+                "NOM": "Punt d'abocament IDAM Formentera",
+                "DESTI": "Medi marí",
+                "VOLUM_2019": 399573,
+                "COORD_X": 366238.09,
+                "COORD_Y": 4282900.25
+            }
+        }
+    ]
+}

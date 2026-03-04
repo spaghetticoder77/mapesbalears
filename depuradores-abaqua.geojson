@@ -1,0 +1,2805 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.130674994447162,
+                        39.92682900243602
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "QC_ID": 0,
+                "NOM": "Alaior",
+                "COORD_X": 596618.13,
+                "COORD_Y": 4420247.91,
+                "ILLA": "Menorca",
+                "ZONA": "ME1",
+                "EMPRESA_EXPL": "Hidrobal",
+                "ANY_CONSTR": 1990,
+                "ANY_REMODELACIO": 2008,
+                "NUCLIS_ASSIST": "Alaior",
+                "AJUNTAMENT": "Alaior",
+                "CABAL_DISSENY": 2500,
+                "POBLACIO": 18154,
+                "PRETRACTAMENT": "Desbast de gruixuts + fins + desarenat + desengreixat",
+                "TRACTAMENT": "Primari + biològic convencional + digestor aerobi",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.8076800047209263,
+                        39.68824000314827
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "QC_ID": 1,
+                "NOM": "Alaró",
+                "COORD_X": 483509.2,
+                "COORD_Y": 4393173.52,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 2010,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Alaró",
+                "AJUNTAMENT": "Alaró",
+                "CABAL_DISSENY": 1200,
+                "POBLACIO": 9000,
+                "PRETRACTAMENT": "Pou de gruixuts + desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.95085700000768,
+                        39.57351700179176
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "QC_ID": 2,
+                "NOM": "Algaida - Montuïri",
+                "COORD_X": 495779.19,
+                "COORD_Y": 4380424.68,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Algaida, Montuiri i Pina",
+                "AJUNTAMENT": "Algaida i Montuiri",
+                "CABAL_DISSENY": 1200,
+                "POBLACIO": 7000,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Terreny / Filtre verd",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.406547002645178,
+                        39.565585997481875
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "QC_ID": 3,
+                "NOM": "Andratx",
+                "COORD_X": 449023.31,
+                "COORD_Y": 4379711.49,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1999,
+                "ANY_REMODELACIO": 2018,
+                "NUCLIS_ASSIST": "Port d'Andratx, Son Borràs (Monport), Cala Llamp, s'Arracó, Andratx",
+                "AJUNTAMENT": "Andratx",
+                "CABAL_DISSENY": 5000,
+                "POBLACIO": 35000,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": "Recepció de fosses sèptiques",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.3588860030334198,
+                        39.69803400057867
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "QC_ID": 4,
+                "NOM": "Artà",
+                "COORD_X": 530768.95,
+                "COORD_Y": 4394304.37,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 1990,
+                "ANY_REMODELACIO": 2020,
+                "NUCLIS_ASSIST": "Artá",
+                "AJUNTAMENT": "Arta",
+                "CABAL_DISSENY": 2284,
+                "POBLACIO": 9166,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Llacunatge airejat",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.513619998004673,
+                        39.69025999538324
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "QC_ID": 5,
+                "NOM": "Banyalbufar",
+                "COORD_X": 458295.68,
+                "COORD_Y": 4393493.08,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Banyalbufar",
+                "AJUNTAMENT": "Banyalbufar",
+                "CABAL_DISSENY": 200,
+                "POBLACIO": 1000,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Doble etapa (OWEG)",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emisari terrestre/mar",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.195611988354253,
+                        39.84075799212376
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "QC_ID": 6,
+                "NOM": "Binidalí",
+                "COORD_X": 602295.1,
+                "COORD_Y": 4410766.99,
+                "ILLA": "Menorca",
+                "ZONA": "ME1",
+                "EMPRESA_EXPL": "Hidrobal",
+                "ANY_CONSTR": 2006,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Binidalí, Cap d'en Font, Binissafuller platja, Binissafuller",
+                "AJUNTAMENT": "Sant Lluís i Maó",
+                "CABAL_DISSENY": 1750,
+                "POBLACIO": 10208,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí (no construit)",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.8687019968719825,
+                        39.68242300318355
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "QC_ID": 7,
+                "NOM": "Binissalem",
+                "COORD_X": 488740.69,
+                "COORD_Y": 4392518.48,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1993,
+                "ANY_REMODELACIO": 2017,
+                "NUCLIS_ASSIST": "Binissalem, Sencelles",
+                "AJUNTAMENT": "Binissalem i Sancelles",
+                "CABAL_DISSENY": 2200,
+                "POBLACIO": 14667,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació i torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.214477005318571,
+                        39.372405001438956
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "QC_ID": 8,
+                "NOM": "Cala d'Or",
+                "COORD_X": 518474.2,
+                "COORD_Y": 4358126.03,
+                "ILLA": "Mallorca",
+                "ZONA": "MA1",
+                "EMPRESA_EXPL": "UTE Agric. De la Vega - Dam - Amer e hijos",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 2009,
+                "NUCLIS_ASSIST": "Sa Barca Trencada, Cala Mondragó, Cala d'Or, Portopetro, s'Alqueria Blanca",
+                "AJUNTAMENT": "Santanyí",
+                "CABAL_DISSENY": 10500,
+                "POBLACIO": 57750,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.144288994677424,
+                        39.8832430005649
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "QC_ID": 9,
+                "NOM": "Cala en Porter",
+                "COORD_X": 597843.49,
+                "COORD_Y": 4415425.02,
+                "ILLA": "Menorca",
+                "ZONA": "ME1",
+                "EMPRESA_EXPL": "Hidrobal",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 2007,
+                "NUCLIS_ASSIST": "Cala en Porter",
+                "AJUNTAMENT": "Alaior",
+                "CABAL_DISSENY": 2250,
+                "POBLACIO": 15000,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.2257910039202797,
+                        39.391032997930004
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "QC_ID": 10,
+                "NOM": "Cala Ferrera",
+                "COORD_X": 519443.58,
+                "COORD_Y": 4360195.71,
+                "ILLA": "Mallorca",
+                "ZONA": "MA1",
+                "EMPRESA_EXPL": "UTE Agric. De la Vega - Dam - Amer e hijos",
+                "ANY_CONSTR": 1990,
+                "ANY_REMODELACIO": 2002,
+                "NUCLIS_ASSIST": "Cala Ferrera, s'Horta, Calonge",
+                "AJUNTAMENT": "Felanitx i Santanyi",
+                "CABAL_DISSENY": 1500,
+                "POBLACIO": 8750,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.9565420006734917,
+                        39.94419499748443
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "QC_ID": 11,
+                "NOM": "Cala Galdana",
+                "COORD_X": 581717.24,
+                "COORD_Y": 4422001.42,
+                "ILLA": "Menorca",
+                "ZONA": "ME2",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 2003,
+                "NUCLIS_ASSIST": "Serpentona, Cala Galdana",
+                "AJUNTAMENT": "Ferreries i Ciutadella",
+                "CABAL_DISSENY": 1500,
+                "POBLACIO": 8750,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.5071030002124493,
+                        38.95603699681479
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "QC_ID": 12,
+                "NOM": "Cala Llonga",
+                "COORD_X": 370644.37,
+                "COORD_Y": 4312957.67,
+                "ILLA": "Eivissa",
+                "ZONA": "E2",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Urbanització Cala Llonga (Santa Eulària)",
+                "AJUNTAMENT": "Santa Eularia",
+                "CABAL_DISSENY": 1750,
+                "POBLACIO": 10208,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Entrega a terciario de campo de golf",
+                "ZONA_SENSIBLE": " "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.5910119976801047,
+                        39.07873099949742
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "QC_ID": 13,
+                "NOM": "Cala Sant Vicent",
+                "COORD_X": 378126.04,
+                "COORD_Y": 4326458.27,
+                "ILLA": "Eivissa",
+                "ZONA": "E2",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Cala Sant Vicent (Sant Joan)",
+                "AJUNTAMENT": "Sant Joan de Labritja",
+                "CABAL_DISSENY": 750,
+                "POBLACIO": 3500,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Llacunatge airejat",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "4 Pous d'infiltració",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.2347299968230447,
+                        38.947789999623105
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 15,
+                "QC_ID": 14,
+                "NOM": "Cala Tarida",
+                "COORD_X": 347024.77,
+                "COORD_Y": 4312464.44,
+                "ILLA": "Eivissa",
+                "ZONA": "E1",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 2017,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Cala Tarida, Cala Corral (Sant Josep)",
+                "AJUNTAMENT": "Sant Josep Sa Talaia",
+                "CABAL_DISSENY": 3518,
+                "POBLACIO": 14070,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.269929004665266,
+                        39.475376994963554
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "QC_ID": 15,
+                "NOM": "Cales de Mallorca",
+                "COORD_X": 523216.43,
+                "COORD_Y": 4369566.61,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 1991,
+                "ANY_REMODELACIO": 2003,
+                "NUCLIS_ASSIST": "Cala Murada, Cala Domingos, Cala Tropicana, Cala Romaguera, Cala Antena (Manacor)",
+                "AJUNTAMENT": "Manacor",
+                "CABAL_DISSENY": 5500,
+                "POBLACIO": 22917,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.302717996236084,
+                        39.51122499918386
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "QC_ID": 16,
+                "NOM": "Cales de Manacor",
+                "COORD_X": 526023.23,
+                "COORD_Y": 4373554.01,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Cala Anguila, Porto Cristo Novo, Cala Mandía, Cala Romántica",
+                "AJUNTAMENT": "Manacor",
+                "CABAL_DISSENY": 4000,
+                "POBLACIO": 16000,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Doble etapa (OWEG)",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.427859997940898,
+                        39.54823699863385
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "QC_ID": 17,
+                "NOM": "Camp de Mar",
+                "COORD_X": 450841.83,
+                "COORD_Y": 4377774.18,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1998,
+                "ANY_REMODELACIO": 2019,
+                "NUCLIS_ASSIST": "Camp de Mar",
+                "AJUNTAMENT": "Andratx",
+                "CABAL_DISSENY": 1200,
+                "POBLACIO": 8000,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.970615000108903,
+                        39.76967100203458
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "QC_ID": 18,
+                "NOM": "Campanet",
+                "COORD_X": 497483.3,
+                "COORD_Y": 4402193.88,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1997,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Búger, Campanet",
+                "AJUNTAMENT": "Búger i Campanet",
+                "CABAL_DISSENY": 500,
+                "POBLACIO": 3083,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.0277409961153534,
+                        39.39450900174362
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "QC_ID": 19,
+                "NOM": "Campos",
+                "COORD_X": 502388.75,
+                "COORD_Y": 4360557.52,
+                "ILLA": "Mallorca",
+                "ZONA": "MA1",
+                "EMPRESA_EXPL": "UTE Agric. De la Vega - Dam - Amer e hijos",
+                "ANY_CONSTR": 1998,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Campos",
+                "AJUNTAMENT": "Campos",
+                "CABAL_DISSENY": 1200,
+                "POBLACIO": 7000,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.387714997403378,
+                        38.874307001631934
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 21,
+                "QC_ID": 20,
+                "NOM": "Can Bossa",
+                "COORD_X": 360138.78,
+                "COORD_Y": 4304063.66,
+                "ILLA": "Eivissa",
+                "ZONA": "E2",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 2011,
+                "NUCLIS_ASSIST": "Sant Jordi, Platja d'en Bossa",
+                "AJUNTAMENT": "Sant Josep Sa Talaia",
+                "CABAL_DISSENY": 5901,
+                "POBLACIO": 41799,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": "Recepció de fosses sèptiques",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.434721995351851,
+                        39.661350997624
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 22,
+                "QC_ID": 21,
+                "NOM": "Canyamel",
+                "COORD_X": 537290.47,
+                "COORD_Y": 4390261.89,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 1990,
+                "ANY_REMODELACIO": 2000,
+                "NUCLIS_ASSIST": "Canyamel (Capdepera), Urbanització Costa de Canyamel",
+                "AJUNTAMENT": "Capdepera",
+                "CABAL_DISSENY": 2250,
+                "POBLACIO": 13125,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.448119002155625,
+                        39.70899599470293
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 23,
+                "QC_ID": 22,
+                "NOM": "Capdepera",
+                "COORD_X": 538413.26,
+                "COORD_Y": 4395555.41,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 1996,
+                "ANY_REMODELACIO": 2004,
+                "NUCLIS_ASSIST": "Capdepera, Cala Rajtada, Cala Agulla",
+                "AJUNTAMENT": "Capdepera",
+                "CABAL_DISSENY": 10000,
+                "POBLACIO": 52500,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": "Recepció de fosses sèptiques",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.133084005184366,
+                        39.41587499906818
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 24,
+                "QC_ID": 23,
+                "NOM": "Cas Concos",
+                "COORD_X": 511456.22000000003,
+                "COORD_Y": 4362936.78,
+                "ILLA": "Mallorca",
+                "ZONA": "MA7",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 2005,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Cas Concos",
+                "AJUNTAMENT": "Felanitx",
+                "CABAL_DISSENY": 150,
+                "POBLACIO": 700,
+                "PRETRACTAMENT": "Desbast de fins + decantador-digestor",
+                "TRACTAMENT": "Aeració",
+                "TRACTAMENT_ADIC": "Filtre verd",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.795381003964038,
+                        40.01753000281603
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 25,
+                "QC_ID": 24,
+                "NOM": "Ciutadella Nord",
+                "COORD_X": 567876.5,
+                "COORD_Y": 4430005.84,
+                "ILLA": "Menorca",
+                "ZONA": "ME2",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 1991,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Ciutadella, Los Delfines, Urbanització Cales Piques",
+                "AJUNTAMENT": "Ciutadella",
+                "CABAL_DISSENY": 3500,
+                "POBLACIO": 19052,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.8533309984809963,
+                        39.96897700049164
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 26,
+                "QC_ID": 25,
+                "NOM": "Ciutadella Sud",
+                "COORD_X": 572873.51,
+                "COORD_Y": 4424662.59,
+                "ILLA": "Menorca",
+                "ZONA": "ME2",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 2002,
+                "NUCLIS_ASSIST": "Ciutadella, Cap d'Artrutx, Son Blanc, Sa Caleta, Sa Cala Blanca, Santandria",
+                "AJUNTAMENT": "Ciutadella",
+                "CABAL_DISSENY": 15000,
+                "POBLACIO": 87500,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Primari + biològic convencional + digestor aerobi",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.009460995639155,
+                        39.31743600196588
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 27,
+                "QC_ID": 26,
+                "NOM": "Colònia de Sant Jordi",
+                "COORD_X": 500815.57,
+                "COORD_Y": 4352003.8,
+                "ILLA": "Mallorca",
+                "ZONA": "MA1",
+                "EMPRESA_EXPL": "UTE Agric. De la Vega - Dam - Amer e hijos",
+                "ANY_CONSTR": 2004,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Colonia de Sant Jordi (Ses Salines)",
+                "AJUNTAMENT": "Ses Salines",
+                "CABAL_DISSENY": 4500,
+                "POBLACIO": 21000,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna de reg- Finca s'Avall",
+                "ZONA_SENSIBLE": "Requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.264269994276264,
+                        39.73201999940737
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 28,
+                "QC_ID": 27,
+                "NOM": "Colònia de Sant Pere",
+                "COORD_X": 522645.96,
+                "COORD_Y": 4398048.13,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Colonia de Sant Pere (Artá), S'Estanyol",
+                "AJUNTAMENT": "Artà",
+                "CABAL_DISSENY": 500,
+                "POBLACIO": 2167,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Pous d'infiltració",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.8243359945261104,
+                        39.67002999788258
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 29,
+                "QC_ID": 28,
+                "NOM": "Consell",
+                "COORD_X": 484933.44,
+                "COORD_Y": 4391149.57,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1998,
+                "ANY_REMODELACIO": 2018,
+                "NUCLIS_ASSIST": "Consell",
+                "AJUNTAMENT": "Consell",
+                "CABAL_DISSENY": 437,
+                "POBLACIO": 2652,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.945215996062415,
+                        39.66709700352097
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 30,
+                "QC_ID": 29,
+                "NOM": "Costitx",
+                "COORD_X": 495301.02,
+                "COORD_Y": 4390810.74,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Costitx",
+                "AJUNTAMENT": "Costitx",
+                "CABAL_DISSENY": 200,
+                "POBLACIO": 1167,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.6440969948959454,
+                        39.751917000963324
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 31,
+                "QC_ID": 30,
+                "NOM": "Deià",
+                "COORD_X": 469510.54000000004,
+                "COORD_Y": 4400283.58,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1993,
+                "ANY_REMODELACIO": 2009,
+                "NUCLIS_ASSIST": "Deià, Cala Deià",
+                "AJUNTAMENT": "Deia",
+                "CABAL_DISSENY": 465,
+                "POBLACIO": 3100,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "CBR (biodiscos)",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "2 Pous d'infiltració",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.4418579952780322,
+                        38.923054001868145
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 32,
+                "QC_ID": 31,
+                "NOM": "Eivissa",
+                "COORD_X": 364928.2,
+                "COORD_Y": 4309391.92,
+                "ILLA": "Eivissa",
+                "ZONA": "E1",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1999,
+                "ANY_REMODELACIO": 2007,
+                "NUCLIS_ASSIST": "Eivissa, Sta. Gertrudis, Ses Figueres - Puig Manyà, Urbanització Puig d'en Celleres, Jesús, Can Clavos, Puig d'en Valls, Can Negre, Sant Rafel de Sa Creu",
+                "AJUNTAMENT": "Eivissa, S. Antoni i Santa Eulalia",
+                "CABAL_DISSENY": 20000,
+                "POBLACIO": 93333,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Filtres biològics (BIOFOR)",
+                "TRACTAMENT_ADIC": "Filtres de sorra",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "2 Emissaris submarins",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.094385994508806,
+                        40.00276299624991
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 33,
+                "QC_ID": 32,
+                "NOM": "Es Mercadal",
+                "COORD_X": 593413.6900000001,
+                "COORD_Y": 4428637.41,
+                "ILLA": "Menorca",
+                "ZONA": "ME1",
+                "EMPRESA_EXPL": "Hidrobal",
+                "ANY_CONSTR": 1998,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Es Mercadal, Platges de Fornells - Cala Tirant, Fornells",
+                "AJUNTAMENT": "Es Mercadal",
+                "CABAL_DISSENY": 1700,
+                "POBLACIO": 8500,
+                "PRETRACTAMENT": "Pou de gruixuts + desbast de fins",
+                "TRACTAMENT": "Llacunatge airejat",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.053474002048406,
+                        39.929546000560414
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 34,
+                "QC_ID": 33,
+                "NOM": "Es Migjorn Gran",
+                "COORD_X": 590017.48,
+                "COORD_Y": 4420468.76,
+                "ILLA": "Menorca",
+                "ZONA": "ME2",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 2003,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Es Migjorn Gran, Sant Tomàs",
+                "AJUNTAMENT": "Es Migjorn Gran",
+                "CABAL_DISSENY": 1375,
+                "POBLACIO": 8021,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.479457003710366,
+                        39.656898999376686
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 35,
+                "QC_ID": 34,
+                "NOM": "Estellencs",
+                "COORD_X": 455344.91000000003,
+                "COORD_Y": 4389806.95,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Estellencs",
+                "AJUNTAMENT": "Estellencs",
+                "CABAL_DISSENY": 158,
+                "POBLACIO": 790,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.137741005673471,
+                        39.4778389974677
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 36,
+                "QC_ID": 35,
+                "NOM": "Felanitx",
+                "COORD_X": 511846.60000000003,
+                "COORD_Y": 4369814.12,
+                "ILLA": "Mallorca",
+                "ZONA": "MA7",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 1982,
+                "ANY_REMODELACIO": 2002,
+                "NUCLIS_ASSIST": "Felanitx",
+                "AJUNTAMENT": "Felanitx",
+                "CABAL_DISSENY": 2500,
+                "POBLACIO": 17083,
+                "PRETRACTAMENT": "Pou de gruixuts + desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació-desfosfatació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació i torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.024385997398595,
+                        39.97969199679907
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 37,
+                "QC_ID": 36,
+                "NOM": "Ferreries",
+                "COORD_X": 587468,
+                "COORD_Y": 4426005.66,
+                "ILLA": "Menorca",
+                "ZONA": "ME2",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 1987,
+                "ANY_REMODELACIO": 2017,
+                "NUCLIS_ASSIST": "Ferreries",
+                "AJUNTAMENT": "Ferreries",
+                "CABAL_DISSENY": 1200,
+                "POBLACIO": 7300,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.4471810023587066,
+                        39.68009499908733
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 38,
+                "QC_ID": 37,
+                "NOM": "Font de Sa Cala",
+                "COORD_X": 538348.84,
+                "COORD_Y": 4392347.43,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 1991,
+                "ANY_REMODELACIO": 2002,
+                "NUCLIS_ASSIST": "Font de Sa Cala (Capdepera)",
+                "AJUNTAMENT": "Capdepera",
+                "CABAL_DISSENY": 1500,
+                "POBLACIO": 8750,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.4325510038743685,
+                        38.712861001687386
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 39,
+                "QC_ID": 38,
+                "NOM": "Formentera",
+                "COORD_X": 363721.23,
+                "COORD_Y": 4286079.25,
+                "ILLA": "Formentera",
+                "ZONA": "E2",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 2008,
+                "NUCLIS_ASSIST": "Platja de Migjorn, La Savina, Sa Roqueta, Es Pujols, Sant Ferran de Ses Roques, Polígon Industrial de Sant Francesc, Sant Francesc, Caló de Sant Agustí, El Pilar de la Mola",
+                "AJUNTAMENT": "C. Insular",
+                "CABAL_DISSENY": 3560,
+                "POBLACIO": 30260,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "Requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.1330799947435204,
+                        39.93039999736242
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 40,
+                "QC_ID": 39,
+                "NOM": "Formentor",
+                "COORD_X": 511371.2,
+                "COORD_Y": 4420040.82,
+                "ILLA": "Mallorca",
+                "ZONA": "MA3",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1995,
+                "ANY_REMODELACIO": 2002,
+                "NUCLIS_ASSIST": "Formentor",
+                "AJUNTAMENT": "Pollença",
+                "CABAL_DISSENY": 330,
+                "POBLACIO": 2475,
+                "PRETRACTAMENT": "Desbast de fins + dipòsit laminador",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.930311998753508,
+                        39.71405599511502
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 41,
+                "QC_ID": 40,
+                "NOM": "Inca",
+                "COORD_X": 494026.72000000003,
+                "COORD_Y": 4396023.34,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1997,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Inca",
+                "AJUNTAMENT": "Inca",
+                "CABAL_DISSENY": 4410,
+                "POBLACIO": 25725,
+                "PRETRACTAMENT": "Pou de gruixuts + desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.9813010028113305,
+                        39.60887999628618
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 42,
+                "QC_ID": 41,
+                "NOM": "Lloret",
+                "COORD_X": 498394.79000000004,
+                "COORD_Y": 4384348.36,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Lloret de Vistalegre",
+                "AJUNTAMENT": "Lloret de Vistalegre",
+                "CABAL_DISSENY": 240,
+                "POBLACIO": 1400,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.8649979972507174,
+                        39.70913299713549
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 43,
+                "QC_ID": 42,
+                "NOM": "Lloseta",
+                "COORD_X": 488427.52,
+                "COORD_Y": 4395483.35,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1993,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Lloseta, Biniamar",
+                "AJUNTAMENT": "Lloseta i Selva",
+                "CABAL_DISSENY": 1300,
+                "POBLACIO": 7605,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.9929199994221993,
+                        39.69738999501822
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 44,
+                "QC_ID": 43,
+                "NOM": "Llubí",
+                "COORD_X": 499392.99,
+                "COORD_Y": 4394171.37,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 2001,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Llubí",
+                "AJUNTAMENT": "Llubí",
+                "CABAL_DISSENY": 625,
+                "POBLACIO": 3646,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Llacunatge airejat",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.883025002003288,
+                        39.82221999609175
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 45,
+                "QC_ID": 44,
+                "NOM": "Lluc",
+                "COORD_X": 489989.2,
+                "COORD_Y": 4408032.22,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1996,
+                "ANY_REMODELACIO": 2001,
+                "NUCLIS_ASSIST": "Lluc, Urbanització des Guix",
+                "AJUNTAMENT": "Escorca",
+                "CABAL_DISSENY": 150,
+                "POBLACIO": 875,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "CBR (biodiscos)",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.2794489951372965,
+                        39.87039400001963
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 48,
+                "QC_ID": 47,
+                "NOM": "Maó-Es Castell",
+                "COORD_X": 609421.22,
+                "COORD_Y": 4414155.64,
+                "ILLA": "Menorca",
+                "ZONA": "ME1",
+                "EMPRESA_EXPL": "Hidrobal",
+                "ANY_CONSTR": 2000,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Maó, Es Castell, Llucmaçanes, Es Grau",
+                "AJUNTAMENT": "Maó i Es castell",
+                "CABAL_DISSENY": 11250,
+                "POBLACIO": 65625,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.7577430040143707,
+                        39.48708800353516
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 46,
+                "QC_ID": 45,
+                "NOM": "Llucmajor",
+                "COORD_X": 479167.12,
+                "COORD_Y": 4370859.54,
+                "ILLA": "Mallorca",
+                "ZONA": "MA7",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 2002,
+                "ANY_REMODELACIO": 2006,
+                "NUCLIS_ASSIST": "Llucmajor, Maioris, Sa Torre, Tolleric, Cala Blava, Les Palmeres, Badia Blava-Badia Gran, Son Verí, S'Arenal (Llucmajor), Polígon Industrial Son Noguera",
+                "AJUNTAMENT": "Llucmajor",
+                "CABAL_DISSENY": 15900,
+                "POBLACIO": 79500,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissaris submarins",
+                "ZONA_SENSIBLE": "Requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.882083997092376,
+                        39.749636997813205
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 47,
+                "QC_ID": 46,
+                "NOM": "Mancor",
+                "COORD_X": 489898.06,
+                "COORD_Y": 4399976.62,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1995,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Mancor de la Vall",
+                "AJUNTAMENT": "Mancor",
+                "CABAL_DISSENY": 240,
+                "POBLACIO": 1400,
+                "PRETRACTAMENT": "Pou de gruixuts + desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.040685994860044,
+                        39.73809999854867
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 49,
+                "QC_ID": 48,
+                "NOM": "Muro",
+                "COORD_X": 503486.18,
+                "COORD_Y": 4398690.33,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1978,
+                "ANY_REMODELACIO": 2001,
+                "NUCLIS_ASSIST": "Muro poble",
+                "AJUNTAMENT": "Muro",
+                "CABAL_DISSENY": 1875,
+                "POBLACIO": 9375,
+                "PRETRACTAMENT": "Pou de gruixuts + desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.118132999074614,
+                        39.779835997456054
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 50,
+                "QC_ID": 49,
+                "NOM": "Platja de Muro",
+                "COORD_X": 510116.11,
+                "COORD_Y": 4403328.31,
+                "ILLA": "Mallorca",
+                "ZONA": "MA3",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 1997,
+                "NUCLIS_ASSIST": "Platja de Muro i Can Picafort",
+                "AJUNTAMENT": "Muro",
+                "CABAL_DISSENY": 12500,
+                "POBLACIO": 62115,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Biològic convencional / llacuntage",
+                "TRACTAMENT_ADIC": "Filtres de sorra",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "4 Pous d'infiltració",
+                "ZONA_SENSIBLE": "Requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.0340889976588663,
+                        39.88613600024974
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 51,
+                "QC_ID": 50,
+                "NOM": "Pollença",
+                "COORD_X": 502914.65,
+                "COORD_Y": 4415120.11,
+                "ILLA": "Mallorca",
+                "ZONA": "MA3",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 2006,
+                "NUCLIS_ASSIST": "Pollença, Port de Pollença, Cala Sant Vicenç, Urbanització Club del Sol, Polígon Industrial de Pollença",
+                "AJUNTAMENT": "Pollença",
+                "CABAL_DISSENY": 16500,
+                "POBLACIO": 99000,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Primari + biològic convencional + digestor anaerobi",
+                "TRACTAMENT_ADIC": "Fisicoquímic + digestor anaerobi",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "Eutrofització i requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.0361259976266424,
+                        39.50918100185764
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 52,
+                "QC_ID": 51,
+                "NOM": "Porreres",
+                "COORD_X": 503105.67,
+                "COORD_Y": 4373284.05,
+                "ILLA": "Mallorca",
+                "ZONA": "MA7",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 2020,
+                "NUCLIS_ASSIST": "Porreres",
+                "AJUNTAMENT": "Porreres",
+                "CABAL_DISSENY": 825,
+                "POBLACIO": 4813,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Filtre verd/Llacunatge",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació, terreny / filtre verd i torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 53,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.4375570037389964,
+                        39.0751210009886
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 53,
+                "QC_ID": 52,
+                "NOM": "Port de Sant Miquel",
+                "COORD_X": 364845.02,
+                "COORD_Y": 4326274.66,
+                "ILLA": "Eivissa",
+                "ZONA": "E2",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1999,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Port de Sant Miquel",
+                "AJUNTAMENT": "Sant Joan de Labritja",
+                "CABAL_DISSENY": 750,
+                "POBLACIO": 4375,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Filtres de sorra",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Pous d'infiltració",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 54,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.246637003337648,
+                        39.408729002334276
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 54,
+                "QC_ID": 53,
+                "NOM": "Portocolom",
+                "COORD_X": 521233.33,
+                "COORD_Y": 4362164.29,
+                "ILLA": "Mallorca",
+                "ZONA": "MA1",
+                "EMPRESA_EXPL": "UTE Agric. De la Vega - Dam - Amer e hijos",
+                "ANY_CONSTR": 1991,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Porto Colom",
+                "AJUNTAMENT": "Felanitx",
+                "CABAL_DISSENY": 2000,
+                "POBLACIO": 10000,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 55,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.532703003038495,
+                        39.620621001388116
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 55,
+                "QC_ID": 54,
+                "NOM": "Puigpunyent",
+                "COORD_X": 459891.72000000003,
+                "COORD_Y": 4385755.55,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1995,
+                "ANY_REMODELACIO": 2006,
+                "NUCLIS_ASSIST": "Puigpunyent, Galilea",
+                "AJUNTAMENT": "Puigpunyent",
+                "CABAL_DISSENY": 232,
+                "POBLACIO": 1547,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "MBR (Membranes)",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 56,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.9147719975330055,
+                        39.53725999947876
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 56,
+                "QC_ID": 55,
+                "NOM": "Randa",
+                "COORD_X": 492676.09,
+                "COORD_Y": 4376403.13,
+                "ILLA": "Mallorca",
+                "ZONA": "MA7",
+                "EMPRESA_EXPL": "Acciona agua SA",
+                "ANY_CONSTR": 2001,
+                "ANY_REMODELACIO": 2005,
+                "NUCLIS_ASSIST": "Randa",
+                "AJUNTAMENT": "Algaida",
+                "CABAL_DISSENY": 125,
+                "POBLACIO": 938,
+                "PRETRACTAMENT": "Desbast de fins + decantador-digestor",
+                "TRACTAMENT": "CBR (biodiscos)",
+                "TRACTAMENT_ADIC": "Filtre verd",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 57,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.7970799978318692,
+                        39.845234997719075
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 57,
+                "QC_ID": 56,
+                "NOM": "Sa Calobra",
+                "COORD_X": 482639.76,
+                "COORD_Y": 4410599.74,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 2010,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Sa Calobra",
+                "AJUNTAMENT": "Escorca",
+                "CABAL_DISSENY": 157,
+                "POBLACIO": 1963,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "CBR (biodiscos)",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 58,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.0373240045473855,
+                        39.7816579984687
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 58,
+                "QC_ID": 57,
+                "NOM": "Sa Pobla",
+                "COORD_X": 503196.09,
+                "COORD_Y": 4403524.52,
+                "ILLA": "Mallorca",
+                "ZONA": "MA3",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1991,
+                "ANY_REMODELACIO": 1997,
+                "NUCLIS_ASSIST": "Sa Pobla, Crestatx",
+                "AJUNTAMENT": "Sa Pobla",
+                "CABAL_DISSENY": 2000,
+                "POBLACIO": 15000,
+                "PRETRACTAMENT": "Desbast de fins + decantador-digestor",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "Requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 59,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.954672001451927,
+                        39.3839810014943
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 59,
+                "QC_ID": 58,
+                "NOM": "Sa Ràpita",
+                "COORD_X": 496096.27,
+                "COORD_Y": 4359389.76,
+                "ILLA": "Mallorca",
+                "ZONA": "MA1",
+                "EMPRESA_EXPL": "UTE Agric. De la Vega - Dam - Amer e hijos",
+                "ANY_CONSTR": 1995,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Sa Rapita, s'Estanyol, Son Bieló, Sa Vinyola",
+                "AJUNTAMENT": "Campos, Llucmajor",
+                "CABAL_DISSENY": 1750,
+                "POBLACIO": 8750,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 60,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.3206669949551078,
+                        38.96314499844741
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 60,
+                "QC_ID": 59,
+                "NOM": "Sant Antoni",
+                "COORD_X": 354503.8,
+                "COORD_Y": 4314027.77,
+                "ILLA": "Eivissa",
+                "ZONA": "E1",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1990,
+                "ANY_REMODELACIO": 2011,
+                "NUCLIS_ASSIST": "Sant Antoni, Sant Agustí, Cala de Bou, Can Germà",
+                "AJUNTAMENT": "Sant Antoni i Sant Josep",
+                "CABAL_DISSENY": 14000,
+                "POBLACIO": 78167,
+                "PRETRACTAMENT": "Desbast de gruixuts + fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 61,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.1989099978236855,
+                        39.87333999931936
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 61,
+                "QC_ID": 60,
+                "NOM": "Sant Climent",
+                "COORD_X": 602528.78,
+                "COORD_Y": 4414387.11,
+                "ILLA": "Menorca",
+                "ZONA": "ME1",
+                "EMPRESA_EXPL": "Hidrobal",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Sant Climent",
+                "AJUNTAMENT": "Maó",
+                "CABAL_DISSENY": 240,
+                "POBLACIO": 1600,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Pous d'infiltració i torrrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 62,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.369099996610826,
+                        39.57939700143682
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 62,
+                "QC_ID": 61,
+                "NOM": "Sant Elm",
+                "COORD_X": 445817.4,
+                "COORD_Y": 4381266.17,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1993,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Sant Elm",
+                "AJUNTAMENT": "Andratx",
+                "CABAL_DISSENY": 1000,
+                "POBLACIO": 5833,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 63,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.0457650010994453,
+                        39.58511700250797
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 63,
+                "QC_ID": 62,
+                "NOM": "Sant Joan",
+                "COORD_X": 503930.03,
+                "COORD_Y": 4381711.92,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 2014,
+                "NUCLIS_ASSIST": "Sant Joan",
+                "AJUNTAMENT": "Sant Joan",
+                "CABAL_DISSENY": 500,
+                "POBLACIO": 2500,
+                "PRETRACTAMENT": "Pou de gruixuts + desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 64,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.5061200026190757,
+                        39.07530000157657
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 64,
+                "QC_ID": 63,
+                "NOM": "Sant Joan de Labritja",
+                "COORD_X": 370776.49,
+                "COORD_Y": 4326194.79,
+                "ILLA": "Eivissa",
+                "ZONA": "E2",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1999,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Sant Joan de Labritja",
+                "AJUNTAMENT": "Dant Joan de Labritja",
+                "CABAL_DISSENY": 63,
+                "POBLACIO": 365,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Filtre verd",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.3045500011411468,
+                        38.91193999500907
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 65,
+                "QC_ID": 64,
+                "NOM": "Sant Josep",
+                "COORD_X": 353001.63,
+                "COORD_Y": 4308370.89,
+                "ILLA": "Eivissa",
+                "ZONA": "E2",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 2014,
+                "NUCLIS_ASSIST": "Sant Josep de Sa Talaia",
+                "AJUNTAMENT": "Sant Antoni i Sant Josep",
+                "CABAL_DISSENY": 345,
+                "POBLACIO": 1380,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "CBR (biodiscos)",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Terreny / Filtre verd",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 66,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.264918005258235,
+                        39.82600700005072
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 66,
+                "QC_ID": 65,
+                "NOM": "Sant Lluís",
+                "COORD_X": 608248.17,
+                "COORD_Y": 4409211.34,
+                "ILLA": "Menorca",
+                "ZONA": "ME1",
+                "EMPRESA_EXPL": "Hidrobal",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Sant Lluís, Alcafar, s'Algar, Binibèquer Vell,Torret de Baix, Biniancollet, Son Ganxo - Son Remei, Punta Prima - Sa Sívina, Polígon industrial de Sant Lluís, Binibèquer Nou - Sa Talaia, Cala Biniancolla",
+                "AJUNTAMENT": "Sant Lluis",
+                "CABAL_DISSENY": 3000,
+                "POBLACIO": 15000,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Doble etapa (OWEG)",
+                "TRACTAMENT_ADIC": "Filtres de sorra",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Infiltració / Terreny",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 70,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.7859319971880754,
+                        39.641470995599306
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 70,
+                "QC_ID": 69,
+                "NOM": "Santa Maria",
+                "COORD_X": 481632.01,
+                "COORD_Y": 4387987.13,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1998,
+                "ANY_REMODELACIO": 2014,
+                "NUCLIS_ASSIST": "Santa María del Camí, Can Borreó, Polígon Industrial de Santa Maria",
+                "AJUNTAMENT": "Santa Maria",
+                "CABAL_DISSENY": 1000,
+                "POBLACIO": 5833,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "2 Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 67,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.8502559953349107,
+                        39.62988100295625
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 67,
+                "QC_ID": 66,
+                "NOM": "Santa Eugènia",
+                "COORD_X": 487149.15,
+                "COORD_Y": 4386689.66,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1996,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Santa Eugenia, Biniali, Ses Coves, Ses Olleries, Ses Alqueries",
+                "AJUNTAMENT": "Santa Eugenia, Sencelles",
+                "CABAL_DISSENY": 225,
+                "POBLACIO": 1313,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació i torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 68,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        1.546863999111906,
+                        38.993879996795926
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 68,
+                "QC_ID": 67,
+                "NOM": "Santa Eulària",
+                "COORD_X": 374156.73,
+                "COORD_Y": 4317101.71,
+                "ILLA": "Eivissa",
+                "ZONA": "E2",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 2020,
+                "NUCLIS_ASSIST": "Sta. Eulària, Sant Carles, Es Canar, Can Ramon (Miramar), Síesta, Cala Pada (s'Argamassa), Cala Llenya",
+                "AJUNTAMENT": "Santa Eularia",
+                "CABAL_DISSENY": 14000,
+                "POBLACIO": 58333,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "Requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 69,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.1016860041371292,
+                        39.71699700302362
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 69,
+                "QC_ID": 68,
+                "NOM": "Santa Margalida",
+                "COORD_X": 508715.61,
+                "COORD_Y": 4396352.37,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Santa Margalida",
+                "AJUNTAMENT": "Santa Margalida",
+                "CABAL_DISSENY": 1100,
+                "POBLACIO": 6417,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 71,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.146001001620263,
+                        39.339547997886335
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 71,
+                "QC_ID": 70,
+                "NOM": "Santanyí",
+                "COORD_X": 512581.84,
+                "COORD_Y": 4354467.85,
+                "ILLA": "Mallorca",
+                "ZONA": "MA1",
+                "EMPRESA_EXPL": "UTE Agric. De la Vega - Dam - Amer e hijos",
+                "ANY_CONSTR": 2000,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Santanyi, Cala Figuera, Cala Santanyi, Es Llombards",
+                "AJUNTAMENT": "Santanyi",
+                "CABAL_DISSENY": 3000,
+                "POBLACIO": 17500,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Pous d'infiltració",
+                "ZONA_SENSIBLE": "Requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 72,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.9171000011824795,
+                        39.748099999151705
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 72,
+                "QC_ID": 71,
+                "NOM": "Selva",
+                "COORD_X": 492897.75,
+                "COORD_Y": 4399802.68,
+                "ILLA": "Mallorca",
+                "ZONA": "MA5",
+                "EMPRESA_EXPL": "UTE Aquambiente - Obras y pavimentos Man",
+                "ANY_CONSTR": 1995,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Selva, Moscari, Caimari",
+                "AJUNTAMENT": "Selva",
+                "CABAL_DISSENY": 600,
+                "POBLACIO": 3500,
+                "PRETRACTAMENT": "Pou de gruixuts + desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 73,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.0736699990204093,
+                        39.33496999639699
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 73,
+                "QC_ID": 72,
+                "NOM": "Ses Salines",
+                "COORD_X": 506349.03,
+                "COORD_Y": 4353952.22,
+                "ILLA": "Mallorca",
+                "ZONA": "MA1",
+                "EMPRESA_EXPL": "UTE Agric. De la Vega - Dam - Amer e hijos",
+                "ANY_CONSTR": 1995,
+                "ANY_REMODELACIO": 2006,
+                "NUCLIS_ASSIST": "Ses Salines",
+                "AJUNTAMENT": "Ses Salines",
+                "CABAL_DISSENY": 375,
+                "POBLACIO": 2188,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent i llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 74,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.084039004803778,
+                        39.650001000903714
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 74,
+                "QC_ID": 73,
+                "NOM": "Sineu – Petra – Maria – Ariany",
+                "COORD_X": 507210.04000000004,
+                "COORD_Y": 4388915.3,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Ariany, Sineu, Petra i Maria de la Salut",
+                "AJUNTAMENT": "Sineu, Petra, Ariany, Maria",
+                "CABAL_DISSENY": 2000,
+                "POBLACIO": 11667,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Llacuna infiltració / evaporació",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.7011429974213192,
+                        39.77691800180895
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 75,
+                "QC_ID": 74,
+                "NOM": "Sóller",
+                "COORD_X": 474406.81,
+                "COORD_Y": 4403040.48,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 2007,
+                "NUCLIS_ASSIST": "Sóller, Fornalutx, l'Horta, Port de Sóller, Biniaraix",
+                "AJUNTAMENT": "Sóller i Fornalutx",
+                "CABAL_DISSENY": 5400,
+                "POBLACIO": 29700,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 76,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.2071399943203613,
+                        39.7212499988698
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 76,
+                "QC_ID": 75,
+                "NOM": "Son Serra de Marina",
+                "COORD_X": 517753.10000000003,
+                "COORD_Y": 4396839.95,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 2003,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Son Serra de Marina (Sta Margalida)",
+                "AJUNTAMENT": "Santa Margalida",
+                "CABAL_DISSENY": 800,
+                "POBLACIO": 4667,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "4 Pous d'infiltració",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 77,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.377592004139493,
+                        39.61195000325171
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 77,
+                "QC_ID": 76,
+                "NOM": "Son Servera",
+                "COORD_X": 532412.89,
+                "COORD_Y": 4384757.01,
+                "ILLA": "Mallorca",
+                "ZONA": "MA2",
+                "EMPRESA_EXPL": "Melchor Mascaró SA",
+                "ANY_CONSTR": 1996,
+                "ANY_REMODELACIO": 2002,
+                "NUCLIS_ASSIST": "Son Servera, Cala Bona, Cala Millor, Costa de los Pinos (Son Servera)",
+                "AJUNTAMENT": "Son Servera",
+                "CABAL_DISSENY": 9000,
+                "POBLACIO": 67500,
+                "PRETRACTAMENT": "Desbast de fins + desarenat",
+                "TRACTAMENT": "Primari + biològic convencional",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació",
+                "ALTRES_TRACTAMENTS": "Recepció de fosses sèptiques",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": "Requereix tract. add. al secundari"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 78,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.6271830003519465,
+                        39.702449002934344
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 78,
+                "QC_ID": 77,
+                "NOM": "Valldemossa",
+                "COORD_X": 468038.71,
+                "COORD_Y": 4394799.24,
+                "ILLA": "Mallorca",
+                "ZONA": "MA6",
+                "EMPRESA_EXPL": "Facsa SA",
+                "ANY_CONSTR": 1992,
+                "ANY_REMODELACIO": 2006,
+                "NUCLIS_ASSIST": "Valldemossa",
+                "AJUNTAMENT": "Valldemossa",
+                "CABAL_DISSENY": 660,
+                "POBLACIO": 4840,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "MBR (Membranes)",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 79,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        3.114448999698727,
+                        39.55210499802786
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 79,
+                "QC_ID": 78,
+                "NOM": "Vilafranca",
+                "COORD_X": 509832.86,
+                "COORD_Y": 4378053.43,
+                "ILLA": "Mallorca",
+                "ZONA": "MA4",
+                "EMPRESA_EXPL": "Cadagua SA",
+                "ANY_CONSTR": 1994,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Vilafranca de Bonany",
+                "AJUNTAMENT": "Vilafranca de Bonany",
+                "CABAL_DISSENY": 600,
+                "POBLACIO": 3500,
+                "PRETRACTAMENT": "Desbast de fins",
+                "TRACTAMENT": "Llacunatge airejat",
+                "TRACTAMENT_ADIC": " ",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Torrent",
+                "ZONA_SENSIBLE": "No"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 80,
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        4.173027266605511,
+                        40.00864482167044
+                    ]
+                ]
+            },
+            "properties": {
+                "OBJECTID": 80,
+                "QC_ID": 79,
+                "NOM": "Addaia",
+                "COORD_X": 600117.86,
+                "COORD_Y": 4429375.65,
+                "ILLA": "Menorca",
+                "ZONA": "ME1",
+                "EMPRESA_EXPL": "Hidrobal",
+                "ANY_CONSTR": 2020,
+                "ANY_REMODELACIO": 0,
+                "NUCLIS_ASSIST": "Urbanització Son Parc, Urbanització Coves Noves, Urbanització Port d'Addaia (Es Mercadal)",
+                "AJUNTAMENT": "Es Mercadal",
+                "CABAL_DISSENY": 4000,
+                "POBLACIO": 21667,
+                "PRETRACTAMENT": "Desbast de fins + desarenat + desengreixat",
+                "TRACTAMENT": "Aeració perllongada",
+                "TRACTAMENT_ADIC": "Nitrificació-desnitrificació + eliminació fósfor",
+                "ALTRES_TRACTAMENTS": " ",
+                "PUNT_RESTITUCIO": "Emissari submarí",
+                "ZONA_SENSIBLE": " "
+            }
+        }
+    ]
+}
